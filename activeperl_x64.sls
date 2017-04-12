@@ -1,19 +1,19 @@
 activeperl_x64:
-  '5.22.1':
-    full_name: 'ActivePerl 5.22.1 Build 2201 (64-bit)'
-    installer: 'http://downloads.activestate.com/ActivePerl/releases/5.22.1.2201/ActivePerl-5.22.1.2201-MSWin32-x64-299574.msi'
-    uninstaller: 'http://downloads.activestate.com/ActivePerl/releases/5.22.1.2201/ActivePerl-5.22.1.2201-MSWin32-x64-299574.msi'
-    install_flags: '/qn /norestart'
-    uninstall_flags: '/qn /norestart'
-    msiexec: True
+  '5.24.0':
+    full_name: 'ActivePerl 5.24.0 Build 2400 (64-bit)'
+    installer: 'http://downloads.activestate.com/ActivePerl/releases/5.24.0.2400/ActivePerl-5.24.0.2400-MSWin32-x64-300558.exe'
+    uninstaller: 'msiexec.exe'
+    install_flags: '/exenoui /qn /norestart'
+    uninstall_flags: '/x {C89FA3E7-29C4-4A60-AFB9-40E04715AE78} /qn /norestart'
+    msiexec: False
     locale: en_US
     reboot: False
-  '5.20.3':
-    full_name: 'ActivePerl 5.20.3 Build 2003 (64-bit)'
-    installer: 'http://downloads.activestate.com/ActivePerl/releases/5.20.3.2003/ActivePerl-5.20.3.2003-MSWin32-x64-299574.msi'
-    uninstaller: 'http://downloads.activestate.com/ActivePerl/releases/5.20.3.2003/ActivePerl-5.20.3.2003-MSWin32-x64-299574.msi'
-    install_flags: '/qn /norestart'
-    uninstall_flags: '/qn /norestart'
-    msiexec: True
+  '5.22.2':
+    full_name: 'ActivePerl 5.22.2 Build 2202 (64-bit)'
+    installer: 'http://downloads.activestate.com/ActivePerl/releases/5.22.2.2202/ActivePerl-5.22.2.2202-MSWin32-x64-300558.exe'
+    uninstaller: 'msiexec.exe'
+    install_flags: '/exenoui /qn /norestart'
+    uninstall_flags: '/x {E8A8E18A-C3AD-4436-834F-EC150C3A3851} /qn /norestart'
+    msiexec: False
     locale: en_US
     reboot: False

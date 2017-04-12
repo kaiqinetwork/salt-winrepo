@@ -1,4 +1,76 @@
 git_x86:
+  '2.12.2':
+    full_name: 'Git version 2.12.2'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.12.2.windows.1/Git-2.12.2-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.12.1':
+    full_name: 'Git version 2.12.1'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.12.1.windows.1/Git-2.12.1-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.11.0.3':
+    full_name: 'Git version 2.11.0.3'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.3/Git-2.11.0.3-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.11.0':
+    full_name: 'Git version 2.11.0'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.1/Git-2.11.0-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.10.2':
+    full_name: 'Git version 2.10.2'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.10.2.windows.1/Git-2.10.2-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.10.1':
+    full_name: 'Git version 2.10.1'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.10.1.windows.1/Git-2.10.1-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.10.0':
+    full_name: 'Git version 2.10.0'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
+  '2.9.0':
+    full_name: 'Git version 2.9.0'
+    installer: 'https://github.com/git-for-windows/git/releases/download/v2.9.0.windows.1/Git-2.9.0-32-bit.exe'
+    install_flags: '/VERYSILENT /NORESTART /SP- /NOCANCEL'
+    uninstaller: '%ProgramFiles%\Git\unins000.exe'
+    uninstall_flags: '/VERYSILENT /NORESTART & %ProgramFiles%\Git\unins001.exe /VERYSILENT /NORESTART & exit 0'
+    msiexec: False
+    locale: en_US
+    reboot: False
   '2.8.4':
     full_name: 'Git version 2.8.4'
     installer: 'https://github.com/git-for-windows/git/releases/download/v2.8.4.windows.1/Git-2.8.4-32-bit.exe'
